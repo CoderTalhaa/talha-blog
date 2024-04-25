@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 function Overlay() {
   const handleDownloadClick = () => {
     // URL to your CV file
-    const cvUrl = "/talha.pdf";
+    const cvUrl = "/talha-cv.pdf";
 
     // Create a temporary link element
     const link = document.createElement("a");

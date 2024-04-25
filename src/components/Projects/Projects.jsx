@@ -1,6 +1,6 @@
 import Stairs from '../Transitions/Stairs'
 import Card from './Card'
-import {laptop, game , ar , hub, talhaPort, Aframe, meteor} from "/src/assets/images/inde.js"
+import {laptop, game , ar , hub, talhaPort, Aframe, meteor,pirate} from "/src/assets/images/inde.js"
 
 function Projects() {
   const projects = [
@@ -17,6 +17,13 @@ function Projects() {
       skill: ["THREEJS", " R3F", "GLSL"],
       des: "Diving into the world of shaders with the help of NodeToy",
       link: "https://rtf-meteor.vercel.app/",
+    },
+    {
+      image: pirate,
+      title: "NFT Pirates",
+      skill: ["THREEJS", " R3F", "Config"],
+      des: "Customise pirates NFT's showplace",
+      link: "https://r3f-pirate.vercel.app/",
     },
     {
       image: laptop,

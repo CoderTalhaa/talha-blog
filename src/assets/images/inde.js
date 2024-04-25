@@ -5,5 +5,6 @@ import hub from "./hub.png"
 import talhaPort from "./talha-port.png"
 import Aframe from "./aframe.png"
 import meteor from "./meteor.png"
+import pirate from "./pirate.png"
 
-export  {laptop, game, hub, ar, talhaPort, Aframe, meteor}
+export  {laptop, game, hub, ar, talhaPort, Aframe, meteor, pirate}
