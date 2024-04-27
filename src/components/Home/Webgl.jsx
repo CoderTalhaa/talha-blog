@@ -12,7 +12,7 @@ function Webgl() {
         {/* <OrbitControls /> */}
         <Environment preset="warehouse" />
         <Experience />
-        {/* <axesHelper scale={9} /> */}
+        {/* <axesHelper scale={3} /> */}
       </Canvas>
     </div>
     </>
