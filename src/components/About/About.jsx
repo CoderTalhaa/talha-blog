@@ -1,6 +1,4 @@
 import Stairs from "../Transitions/Stairs";
-import Lottie from "lottie-react";
-import animation from "/src/assets/animation.json";
 import picture from "/src/assets/talha.jpg";
 
 
@@ -14,9 +12,8 @@ function About() {
           </div>
         </div>
         <h1 className="mt-6 text-3xl uppercase tracking-tighter font-philos">
-          unfortunately no about 💀{" "}
+          "SOMETHING SPECIAL COMING SOON"
         </h1>
-        <Lottie animationData={animation} className="lg:h-[500px]" />
       </div>
     </Stairs>
   );

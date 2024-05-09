@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact.jsx";
 import { AnimatePresence } from "framer-motion";
 import { Suspense, lazy } from "react";
+import Error from "./components/Error/Error.jsx";
 
 const LazyProject = lazy(() => import("./components/Projects/Projects.jsx"));
 const LazyHome = lazy(() => import("./components/Home/Home"));
@@ -45,6 +46,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<LazyProject />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </AnimatePresence>
       </div>
